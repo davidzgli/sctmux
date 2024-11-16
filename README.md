@@ -15,6 +15,11 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux source ~/.tmux.conf
 ```
 
+**NOTE**
+- If you don't use plugin manager *tmp*, comment out the *plugins* section
+- If Your default shell is fish, or shell switching is configured in ~/.bashrc or ~/.bash_profile, comment out the two fish shell related commands.
+
+
 Press prefix + I (capital i, as in Install) to fetch the plugin in Tmux. 
 
 
